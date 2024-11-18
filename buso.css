@@ -4,7 +4,7 @@ body {
 	width: 85%;
 	max-width: 1000px;
 	text-align: justify;
-	color: #522F00;
+	color: #232323;
 }
 
 p:first-letter {
@@ -18,7 +18,7 @@ header {
 	height: 250px; 
 }
 
-h1{
+h1, h2{
 	color: #B16400;
 }
 
@@ -33,6 +33,12 @@ img {
 
 .balra {
 	float: left;
+	width: 300px;
+}
+
+.jobbra{
+	float: right;
+	width: 300px;
 }
 
 
@@ -54,11 +60,6 @@ footer{
 	padding-top: 20px;
 	margin-bottom: 0px;
 	font-size: 0.8em;
-}
-
-a {
-	text-transform: uppercase;
-	text-decoration: none;
 }
 
 @media screen and (max-width:600px) {
